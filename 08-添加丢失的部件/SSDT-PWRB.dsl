@@ -1,8 +1,6 @@
 //Add PWRB
-#ifndef NO_DEFINITIONBLOCK
 DefinitionBlock("", "SSDT", 2, "hack", "PNP0C0C", 0)
 {
-#endif
     //search PNP0C0C
     Scope (\_SB)
     {
@@ -22,7 +20,5 @@ DefinitionBlock("", "SSDT", 2, "hack", "PNP0C0C", 0)
             }
         }
     }
-#ifndef NO_DEFINITIONBLOCK
 }
-#endif
 //EOF

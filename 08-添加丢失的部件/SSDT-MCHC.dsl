@@ -2,7 +2,6 @@
 DefinitionBlock ("", "SSDT", 2, "hack", "MCHC", 0)
 {
     External (_SB_.PCI0, DeviceObj)
-
     Scope (_SB.PCI0)
     {
         Device (MCHC)
@@ -22,4 +21,3 @@ DefinitionBlock ("", "SSDT", 2, "hack", "MCHC", 0)
         }
     }
 }
-

@@ -1,8 +1,6 @@
 //Add SLPB 
-#ifndef NO_DEFINITIONBLOCK
 DefinitionBlock("", "SSDT", 2, "hack", "PNP0C0E", 0)
 {
-#endif
     //search PNP0C0E
     Scope (\_SB)
     {
@@ -22,7 +20,5 @@ DefinitionBlock("", "SSDT", 2, "hack", "PNP0C0E", 0)
             }
         }
     }
-#ifndef NO_DEFINITIONBLOCK
 }
-#endif
 //EOF

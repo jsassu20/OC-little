@@ -2,7 +2,6 @@
 DefinitionBlock ("", "SSDT", 2, "hack", "DMAC", 0)
 {
     External(_SB.PCI0.LPCB, DeviceObj)
-
     Scope (_SB.PCI0.LPCB)
     {
         Device (DMAC)
@@ -51,4 +50,3 @@ DefinitionBlock ("", "SSDT", 2, "hack", "DMAC", 0)
         }
     }
 }
-
