@@ -36,6 +36,10 @@
 - 操作系统更名补丁
 - 亮度快捷键补丁
 
+## QQ交流群
+
+538643249 `OpenCore`技术交流群 [点击进群](//shang.qq.com/wpa/qunwpa?idkey=39aee9ea4d248cd6fe1e4e57e79551c5cbf85af615d55be08a364fd7c213c906) 
+
 ### Credits
 
 - 特别感谢：
