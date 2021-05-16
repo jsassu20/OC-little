@@ -1,51 +1,51 @@
-# OpenCore 0.5+ 部件补丁
+# OpenCore 0.5+ component patch
 
-> 8 月 26 日更新
+> August 26 update
 
-## 说明
+## Description
 
-依据 OpenCore 0.5 的要求和建议，制作本部件补丁
+According to the requirements and suggestions of OpenCore 0.5, make this part patch
 
-## 主要内容
+## main content
 
-- ACPI 二进制更名
-- 预置变量法
-- 注入 X86
-- 仿冒 `EC`
-- OC-`PNLF` 注入方法
-- `SBU(SMBU)` 补丁
-- PS2 键盘映射 @OC-xlivans
-- 键盘无法输入的应急解决方案 `PS2N`
-- 添加丢失的部件
-- OC `I2C-TPXX` 补丁方法
-- OC 电池 (TP)
-- 禁用 EHCx
-- `PTSWAK` 综合补丁和扩展补丁
-- `PNP0C0E` 强制睡眠
-- `0D6D` 补丁
-- 为了方便使用，整理了部分驱动列表，**仅供参考**：
+-ACPI binary rename
+-Preset variable method
+-Inject X86
+-Counterfeit `EC`
+-OC-`PNLF` injection method
+-`SBU(SMBU)` patch
+-PS2 keyboard mapping @OC-xlivans
+-Emergency solution `PS2N` for keyboard unable to input
+-Add missing parts
+-OC `I2C-TPXX` patch method
+-OC battery (TP)
+-Disable EHCx
+-`PTSWAK` comprehensive patch and extended patch
+-`PNP0C0E` forced sleep
+-`0D6D` patch
+-For ease of use, some driver lists have been organized, **for reference only**:
 
-  - config-Lilu-SMC-WEG-ALC 驱动列表
-  - config-PS2 键盘驱动列表
-  - config-I2C 禁止原生驱动列表
-  - config-I2C 驱动列表
-  - config-BCM 无线蓝牙驱动列表
+  -config-Lilu-SMC-WEG-ALC driver list
+  -config-PS2 keyboard driver list
+  -config-I2C forbidden native driver list
+  -config-I2C driver list
+  -config-BCM wireless bluetooth driver list
 
-## 保留项目
+## Reserved items
 
-- 操作系统更名补丁
-- 亮度快捷键补丁
+-Operating system rename patch
+-Brightness shortcut key patch
 
-## QQ交流群
+## QQ exchange group
 
-538643249 `OpenCore`技术交流群 [点击进群](//shang.qq.com/wpa/qunwpa?idkey=39aee9ea4d248cd6fe1e4e57e79551c5cbf85af615d55be08a364fd7c213c906) 
+538643249 `OpenCore` technical exchange group [click to enter](//shang.qq.com/wpa/qunwpa?idkey=39aee9ea4d248cd6fe1e4e57e79551c5cbf85af615d55be08a364fd7c213c906)
 
 ### Credits
 
-- 特别感谢：
-  - @宪武 制作的适用于 **[OpenCore](https://github.com/acidanthera/OpenCorePkg)** 的 ACPI 部件补丁
-  - @[Bat.bat](https://github.com/williambj1), @[黑果小兵](github.com/daliansky) 审核完善
+- Special thanks to:
+  -ACPI component patch made by @宪武 for **[OpenCore](https://github.com/acidanthera/OpenCorePkg)**
+  -@[Bat.bat](https://github.com/williambj1), @[黑果小兵](github.com/daliansky) Complete review
 
-- 感谢：@冬瓜-X1C5th, @OC-xlivans, @Air 13 IWL-GZ-Big Orange (OC perfect), @子骏oc IWL, @大勇-小新air13-OC-划水小白 等等
+-Thank you: @冬瓜-X1C5th, @OC-xlivans, @Air 13 IWL-GZ-Big Orange (OC perfect), @子骏oc IWL, @大勇-小新air13-OC-打水小白, etc.
 
-- Thanks to [Acidanthera](https://github.com/acidanthera) for providing [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg), ~~[AptioFixPkg](https://github.com/acidanthera/AptioFixPkg)~~(Achieved), [MacInfoPkg](https://github.com/acidanthera/MacInfoPkg), [OCSupportPkg](https://github.com/acidanthera/OCSupportPkg) and [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg).
+-Thanks to [Acidanthera](https://github.com/acidanthera) for providing [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg), ~~[AptioFixPkg](https://github.com/ acidanthera/AptioFixPkg)~~(Achieved), [MacInfoPkg](https://github.com/acidanthera/MacInfoPkg), [OCSupportPkg](https://github.com/acidanthera/OCSupportPkg) and [OpenCorePkg](https: //github.com/acidanthera/OpenCorePkg).
